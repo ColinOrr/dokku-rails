@@ -16,7 +16,7 @@ Vagrant.configure(2) do |config|
     rvm use 2.2.0 --install --default
 
     # Rails
-    gem install rails
+    gem install rails -v 4.2.1
 
     # Postgres
     sudo apt-get install postgresql libpq-dev --yes
